@@ -9,3 +9,15 @@
 html {
     font-family: Avenir Next Rounded, Avenir Next, Avenir;
 }
+body{
+    background-color: #FF8F00;
+}
+main{
+    background-color: #ff9f00;
+}
+footer{
+    border-top: 1%;
+}
+header{
+    border-bottom: 1%;
+}
