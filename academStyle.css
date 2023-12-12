@@ -1,0 +1,13 @@
+.academText{
+    font-family: Avenir Next Rounded, Avenir Next, Avenir;
+    background-color:#c9343c;
+    padding: 1cm 1cm 1cm 1cm;
+}
+.academBody{
+    border-radius:1cm; 
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.academBackground{
+    background-color:#ffdbe3;color:#ffdbe3;
+}
