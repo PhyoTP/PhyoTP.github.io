@@ -16,8 +16,11 @@ main{
     background-color: #ff9f00;
 }
 footer{
-    border-top: 1%;
+    border-top: 0.1cm;
 }
 header{
-    border-bottom: 1%;
+    border-bottom: 0.1cm;
+}
+footer, header{
+    border-color: #000000;
 }
