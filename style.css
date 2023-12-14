@@ -10,10 +10,10 @@ html {
     font-family: Avenir Next Rounded, Avenir Next, Avenir;
 }
 body{
-    background-color: #FF8F00;
+    background-color: #cf5b2e;
 }
 main{
-    background-color: #ff9f00;
+    background-color: #cf5e2e;
 }
 footer{
     border-top: 0.1cm;
@@ -22,5 +22,5 @@ header{
     border-bottom: 0.1cm;
 }
 footer, header{
-    border-color: #000000;
+    border-color: #ffffff;
 }
