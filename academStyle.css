@@ -8,8 +8,7 @@
 }
 main{
     border-radius:1cm; 
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin: 1cm 1cm 1cm 1cm;
 }
 body {
     display: flex;
