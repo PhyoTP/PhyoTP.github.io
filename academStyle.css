@@ -6,9 +6,14 @@
     
     
 }
-.academBody{
+main{
     border-radius:1cm; 
     margin-left: 1cm;
     margin-right: 1cm;
 }
-
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    margin: 0;
+}
