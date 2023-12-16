@@ -1,5 +1,5 @@
 .academText{
-    font-family: Avenir Next Rounded, Avenir Next, Avenir;
+    
     color:#ffdbe3;
     padding: 1cm 1cm 1cm 1cm;
     background-color:#c9343c;
@@ -11,8 +11,20 @@ main{
     margin: 1cm 1cm 1cm 1cm;
 }
 body {
+    font-family: Avenir Next Rounded, Avenir Next, Avenir;
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Set minimum height to 100% of the viewport height */
     margin: 0;
+}
+header{
+    background-image: url(https://cdn.discordapp.com/attachments/1147754676754849812/1184860451595628616/iOS_Icon.png?ex=658d8249&is=657b0d49&hm=cb0f78e038af5439c59e3b0799637c925a1ae8173296139c7f01b18277c776fe&);
+    background-size: cover;
+    background-position:center;
+    height:512px;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    color:#c9343c;
+    font-size:large;
 }
