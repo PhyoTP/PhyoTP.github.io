@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('/Avenir.woff2') format('woff2');
+    /* Add additional font formats if necessary for better browser compatibility */
+    font-weight: normal;
+    font-style: normal;
+}
+
 .academText{
     
     color:#ffdbe3;
@@ -11,7 +19,7 @@ main{
     margin: 1cm 1cm 1cm 1cm;
 }
 body {
-    font-family: Avenir Next Rounded, Avenir Next, Avenir;
+    font-family: Avenir Next Rounded, Avenir Next, Avenir, 'Avenir';
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Set minimum height to 100% of the viewport height */

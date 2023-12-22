@@ -20,6 +20,14 @@ footer{
 }
 header{
     border-bottom: 0.1cm;
+    background-image: url(https://raw.githubusercontent.com/PhyoTP/PhyoTP/main/New%20Channel%20Banner.png);
+    background-size: cover;
+    background-position:center;
+    height:767px;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    font-size:large;
 }
 footer, header{
     border-color: #ffffff;
