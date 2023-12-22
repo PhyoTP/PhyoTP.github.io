@@ -1,13 +1,13 @@
-/*@font-face {
+@font-face {
     font-family: 'Avenir';
     src: url('/Avenir.woff2') format('woff2');
-    /* Add additional font formats if necessary for better browser compatibility *
+    /* Add additional font formats if necessary for better browser compatibility */
     font-weight: normal;
     font-style: normal;
-}*/
+}
 
 html {
-    font-family: Avenir Next Rounded, Avenir Next, Avenir;
+    font-family: Avenir Next Rounded, Avenir Next, Avenir, 'Avenir';
 }
 body{
     background-color: #cf5b2e;
