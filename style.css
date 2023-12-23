@@ -8,12 +8,14 @@
 
 html {
     font-family: Avenir Next Rounded, Avenir Next, Avenir, 'Avenir';
-    color: #FFD733;
+    color: #802F00;
 }
 body{
-    background-color: #FF8033;
+    background-color: #FF5E0E;
 }
-
+div{
+    background-color: #FF8C00;
+}
 /*footer{
     border-top: 0.1cm;
 }*/
@@ -27,6 +29,7 @@ header{
     display:flex;
     justify-content:center;
     font-size:large;
+    margin: 0px;
 }
 /*footer, header{
     border-color: #ffffff;
