@@ -8,27 +8,26 @@
 
 html {
     font-family: Avenir Next Rounded, Avenir Next, Avenir, 'Avenir';
+    color: #FFD733;
 }
 body{
-    background-color: #cf5b2e;
+    background-color: #FF8033;
 }
-main{
-    background-color: #cf5e2e;
-}
-footer{
+
+/*footer{
     border-top: 0.1cm;
-}
+}*/
 header{
-    border-bottom: 0.1cm;
+    /*border-bottom: 0.1cm;*/
     background-image: url(https://cdn.discordapp.com/attachments/930849166907809843/1187774165453914112/websitebanner.png?ex=65981be4&is=6585a6e4&hm=3e46d397733c1921a4b206972cc10fb82ded29e71b5e4069fbdfaf167dd4acd3&);
     background-size: cover;
     background-position:center;
-    height:512px;
+    height:256px;
     align-items:center;
     display:flex;
     justify-content:center;
     font-size:large;
 }
-footer, header{
+/*footer, header{
     border-color: #ffffff;
-}
+}*/
