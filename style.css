@@ -10,17 +10,14 @@ html {
     font-family: Avenir Next Rounded, Avenir Next, Avenir, 'Avenir';
     color: #802F00;
 }
-body{
+main{
     background-color: #FF5E0E;
 }
-div{
+section{
     background-color: #FF8C00;
+    padding: 8px;
 }
-/*footer{
-    border-top: 0.1cm;
-}*/
-header{
-    /*border-bottom: 0.1cm;*/
+#topimage{
     background-image: url(https://cdn.discordapp.com/attachments/930849166907809843/1187774165453914112/websitebanner.png?ex=65981be4&is=6585a6e4&hm=3e46d397733c1921a4b206972cc10fb82ded29e71b5e4069fbdfaf167dd4acd3&);
     background-size: cover;
     background-position:center;
@@ -29,8 +26,5 @@ header{
     display:flex;
     justify-content:center;
     font-size:large;
-    margin: 0px;
+    margin: -8px;
 }
-/*footer, header{
-    border-color: #ffffff;
-}*/
