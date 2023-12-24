@@ -43,3 +43,6 @@ main{
     position:relative;
     bottom:8px;
 }
+section{
+    border-radius:16px;
+}
