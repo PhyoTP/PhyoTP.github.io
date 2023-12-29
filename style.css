@@ -46,3 +46,6 @@ main{
 section{
     border-radius:16px;
 }
+#intro img{
+    float: right;
+}
