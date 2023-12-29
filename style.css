@@ -38,6 +38,9 @@ header {
 #sections {
     position: relative;
     top: 32px;
+    padding-left:20%;
+    padding-right:20%;
+    
 }
 main{
     position:relative;
@@ -53,5 +56,10 @@ section{
 #intro img{
     float: right;
     padding-top:20px;
+    animation: appear 1s;
+}
+@keyframes appear {
+    from{opacity: 0;position: relative;top: 100px;}
+    to{opacity: 1;}
 }
 
