@@ -46,6 +46,12 @@ main{
 section{
     border-radius:16px;
 }
+#intro{
+    height:432px;
+    
+}
 #intro img{
     float: right;
+    padding-top:20px;
 }
+
