@@ -38,9 +38,8 @@ header {
 #sections {
     position: relative;
     top: 32px;
-    padding-left:200px;
-    padding-right:200px;
-    
+    padding-left: 20px;
+    padding-right: 20px;
 }
 main{
     position:relative;
@@ -50,8 +49,8 @@ section{
     border-radius:32px;
 }
 #intro{
-    height:436px;
-    
+    min-height: 436px;
+    min-width: 400px;
 }
 #intro img{
     float: right;
