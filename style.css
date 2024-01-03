@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-html {
+html,a {
     font-family: Avenir Next Rounded, Avenir Next, Avenir, 'Avenir';
     color: #802F00;
 }
@@ -61,4 +61,12 @@ section{
     from{opacity: 0;position: relative;top: 100px;}
     to{opacity: 1;position:relative;top:0px}
 }
-
+header img{
+    height:56px;
+    margin:-8px 4px -10px -12px;
+}
+header nav{
+    display:inline;
+    position:relative;
+    bottom:12px;
+}
