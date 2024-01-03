@@ -21,8 +21,11 @@ section, header{
 
 header {
     margin: -8px;
-    padding-bottom: 24px;
+    padding-bottom: 8px;
     padding-top: 12px;
+    position: sticky;
+    top:0px;
+    z-index:1;
 }
 #topimage{
     background-image: url(https://cdn.discordapp.com/attachments/930849166907809843/1187774165453914112/websitebanner.png?ex=65981be4&is=6585a6e4&hm=3e46d397733c1921a4b206972cc10fb82ded29e71b5e4069fbdfaf167dd4acd3&);
