@@ -63,10 +63,19 @@ section{
 }
 header img{
     height:56px;
-    margin:-8px 4px -10px -12px;
+    margin:-8px 4px -14px -12px;
+    border-radius:28px;
 }
 header nav{
     display:inline;
     position:relative;
-    bottom:12px;
+    bottom:10px;
+    left:50px
+}
+header *{
+    display:inline;
+}
+header h1{
+    position:relative;
+    bottom:4px;
 }
