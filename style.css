@@ -41,19 +41,19 @@ header {
 #sections {
     position: relative;
     top: 32px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 main{
     position:relative;
     bottom:8px;
 }
 section{
-    border-radius:32px;
+    border-radius: 32px;
+    margin-bottom: 20px;
 }
 #intro{
     min-height: 436px;
     min-width: 400px;
+    margin:0px 200px 0px 100px;
 }
 #intro img{
     float: right;
@@ -91,5 +91,14 @@ header a{
 header a:hover{
     text-transform:uppercase;
     background-color:#FF5E0E;
+}
+#swift{
+    min-height: 436px;
+    min-width: 400px;
+    margin:0px 100px 0px 200px;
+}
+#swift img{
+    float: right;
+    padding-top:20px;
 }
  
