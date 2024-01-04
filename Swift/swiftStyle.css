@@ -25,10 +25,10 @@ header {
     top:0px;
     z-index:1;
 }
-main{
+/*main{
     position:relative;
     bottom:8px;
-}
+}*/
 section{
     border-radius: 32px;
 }
