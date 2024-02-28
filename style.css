@@ -49,6 +49,7 @@ main{
 section{
     border-radius: 32px;
 }
+
 #intro{
     min-height: 436px;
     min-width: 400px;
@@ -59,9 +60,10 @@ section{
     padding-top:20px;
     animation: appear 1s;
 }
+
 @keyframes appear {
-    from{opacity: 0;position: relative;top: 100px;}
-    to{opacity: 1;position:relative;top:0px}
+    from{opacity: 0;position: relative;left: 100px;}
+    to{opacity: 1;position:relative;left:0px}
 }
 header img{
     height:56px;
@@ -91,6 +93,7 @@ header a:hover{
     text-transform:uppercase;
     background-color:#FF5E0E;
 }
+
 #swift{
     min-height: 436px;
     min-width: 400px;
