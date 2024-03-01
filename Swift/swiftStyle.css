@@ -12,25 +12,19 @@ html,a {
 body{
     background-color: #FF5E0E;
 }
+
 section, header{
     background-color: #FF8C00;
     padding: 16px;
     padding-top: 8px;
 }
 header {
-    margin: -8px -8px 8px -8px;
+    margin: -8px;
     padding-bottom: 8px;
     padding-top: 12px;
     position: sticky;
     top:0px;
     z-index:1;
-}
-/*main{
-    position:relative;
-    bottom:8px;
-}*/
-section{
-    border-radius: 32px;
 }
 header img{
     height:56px;
@@ -59,4 +53,16 @@ header a{
 header a:hover{
     text-transform:uppercase;
     background-color:#FF5E0E;
+}
+
+main{
+    position:relative;
+    bottom:8px;
+}
+#sections {
+    position: relative;
+    top: 32px;
+}
+section{
+    border-radius: 32px;
 }
