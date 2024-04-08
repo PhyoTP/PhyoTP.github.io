@@ -101,7 +101,7 @@ header a:hover{
     min-width: 400px;
     margin:0px 100px 20px 200px;
 }
-#swift img{
+#swift img, #swift iframe{
     float: right;
     padding-top:20px;
     max-width: 400px;
