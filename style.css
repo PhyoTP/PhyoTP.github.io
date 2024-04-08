@@ -54,11 +54,13 @@ section{
     min-width: 400px;
     margin:0px 200px 20px 100px;
 }
-#intro img{
+.oddSection img{
     float: right;
     padding-top:20px;
-    animation: appear 1s;
     max-width: 400px;
+}
+#intro img{
+    animation: appear 1s;
 }
 
 @keyframes appear {
