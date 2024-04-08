@@ -6,7 +6,7 @@
     font-style: normal;
 }
 html,a {
-    font-family: Avenir Next Rounded, Avenir Next, Avenir, 'Avenir';
+    font-family: Avenir Next Rounded, Avenir Next, Avenir, Inter, 'Avenir';
     color: #802F00;
 }
 body{
@@ -49,7 +49,7 @@ section{
     border-radius: 32px;
 }
 
-#intro{
+.oddSection{
     min-height: 436px;
     min-width: 400px;
     margin:0px 200px 20px 100px;
@@ -104,4 +104,4 @@ header a:hover{
     padding-top:20px;
     max-width: 400px;
 }
- 
+
