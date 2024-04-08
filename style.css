@@ -55,7 +55,6 @@ section{
     margin:0px 200px 20px 100px;
 }
 .oddSection img{
-    float: right;
     padding-top:20px;
     max-width: 400px;
 }
@@ -102,8 +101,14 @@ header a:hover{
     margin:0px 100px 20px 200px;
 }
 #swift img, #swift iframe{
-    float: right;
     padding-top:20px;
     max-width: 400px;
+}
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
 }
 
