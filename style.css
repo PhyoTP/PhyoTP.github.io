@@ -95,12 +95,12 @@ header a:hover{
     background-color:#FF5E0E;
 }
 
-#swift{
+#swift, #academ{
     min-height: 436px;
     min-width: 400px;
     margin:0px 100px 20px 200px;
 }
-#swift img{
+#swift img, #academ img{
     padding-top:20px;
     max-width: 400px;
 }
