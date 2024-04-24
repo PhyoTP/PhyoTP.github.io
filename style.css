@@ -7,14 +7,14 @@
 }
 html,a {
     font-family: Avenir Next Rounded, Avenir Next, Avenir, Inter, 'Avenir';
-    color: #802F00;
+    color: #FFBB67;
 }
 body{
-    background-color: #FF5E0E;
+    background-color: #332F2B;
 }
 
 section, header{
-    background-color: #FF8C00;
+    background-color: #554839;
     padding: 16px;
     padding-top: 8px;
 }
@@ -111,4 +111,6 @@ header a:hover{
 .right{
     float:right;
 }
-
+.lighted, h1, h2{
+    color: #FF8C00;
+}
