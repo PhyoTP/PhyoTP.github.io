@@ -6,15 +6,15 @@
     font-style: normal;
 }
 html,a {
-    font-family: Avenir Next Rounded, Avenir Next, Avenir, 'Avenir';
-    color: #802F00;
+    font-family: Inter, 'Avenir';
+    color: #FFBB67;
 }
 body{
-    background-color: #FF5E0E;
+    background-color: #332F2B;
 }
 
 section, header{
-    background-color: #FF8C00;
+    background-color: #554839;
     padding: 16px;
     padding-top: 8px;
 }
@@ -30,7 +30,7 @@ header {
     background-image: url(/The\ Average\ Pi.png);
     background-size: cover;
     background-position:center;
-    height:256px;
+    height:100vh;
     align-items:center;
     display:flex;
     justify-content:center;
@@ -49,16 +49,17 @@ section{
     border-radius: 32px;
 }
 
-#intro{
+.oddSection{
     min-height: 436px;
     min-width: 400px;
-    margin:0px 200px 20px 100px;
+    margin:0px 10vw 20px 5vw;
+}
+.oddSection img{
+    padding-top:20px;
+    max-width: 400px;
 }
 #intro img{
-    float: right;
-    padding-top:20px;
     animation: appear 1s;
-    max-width: 400px;
 }
 
 @keyframes appear {
@@ -94,14 +95,23 @@ header a:hover{
     background-color:#FF5E0E;
 }
 
-#swift{
+.evenSection{
     min-height: 436px;
     min-width: 400px;
-    margin:0px 100px 20px 200px;
+    margin:0px 5vw 20px 10vw;
 }
-#swift img{
-    float: right;
+.evenSection img{
     padding-top:20px;
     max-width: 400px;
 }
- 
+
+.left{
+    float:left;
+    max-width: 29vw;
+}
+.right{
+    float:right;
+}
+.lighted, h1, h2{
+    color: #FF8C00;
+}
