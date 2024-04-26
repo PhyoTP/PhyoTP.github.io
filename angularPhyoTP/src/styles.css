@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Avenir';
+    src: url('/Avenir.woff2') format('woff2');
+    /* Add additional font formats if necessary for better browser compatibility */
+    font-weight: normal;
+    font-style: normal;
+}
+html,a {
+    font-family: Inter, 'Avenir';
+    color: #FFBB67;
+}
+body{
+    background-color: #332F2B;
+}

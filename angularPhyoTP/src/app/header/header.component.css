@@ -1,0 +1,41 @@
+header{
+    background-color: #000000;
+    padding: 16px;
+    padding-top: 8px;
+}
+header {
+    margin: -8px;
+    padding-bottom: 8px;
+    padding-top: 12px;
+    position: sticky;
+    top:0px;
+    z-index:1;
+}
+header img{
+    height:48px;
+    margin:0px 10px -5px 0px;
+    border-radius:28px;
+}
+header nav{
+    display:inline;
+    position:relative;
+    bottom:10px;
+    left:50px
+}
+header *{
+    display:inline;
+}
+header h1{
+    position:relative;
+    bottom:8px;
+}
+header a{
+    text-decoration:none;
+    padding:4px;
+    transition: background-color 1s;
+    border-radius:4px;
+}
+header a:hover{
+    text-transform:uppercase;
+    background-color:#FF5E0E;
+}
