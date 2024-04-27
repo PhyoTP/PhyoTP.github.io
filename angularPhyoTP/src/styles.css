@@ -1,15 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
-    font-family: 'Avenir';
-    src: url('/Avenir.woff2') format('woff2');
-    /* Add additional font formats if necessary for better browser compatibility */
+    font-family: 'AvenirMedium';
+    src: url('assets/AvenirMedium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-html,a {
-    font-family: Inter, 'Avenir';
-    color: #FFBB67;
+@font-face {
+    font-family: 'AvenirDemi';
+    src: url('assets/AvenirDemi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AvenirBold';
+    src: url('assets/AvenirBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+a, h1, h2, .lighted{
+    color: #ff8c00;
+}
+p, a {
+    font-family: "AvenirMedium";
+}
+h2{
+    font-family:"AvenirDemi";
+}
+h1{
+    font-family: "AvenirBold";
 }
 body{
     background-color: #332F2B;
+}
+p{
+    color:white;
 }

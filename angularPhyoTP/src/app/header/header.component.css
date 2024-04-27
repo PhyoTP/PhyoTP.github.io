@@ -1,5 +1,5 @@
 header{
-    background-color: #000000;
+    background-color: black;
     padding: 16px;
     padding-top: 8px;
 }
@@ -11,12 +11,12 @@ header {
     top:0px;
     z-index:1;
 }
-header img{
+img{
     height:48px;
     margin:0px 10px -5px 0px;
     border-radius:28px;
 }
-header nav{
+nav{
     display:inline;
     position:relative;
     bottom:10px;
@@ -25,17 +25,21 @@ header nav{
 header *{
     display:inline;
 }
-header h1{
+h1{
     position:relative;
     bottom:8px;
 }
-header a{
+a{
     text-decoration:none;
     padding:4px;
     transition: background-color 1s;
     border-radius:4px;
 }
-header a:hover{
+a:hover{
     text-transform:uppercase;
     background-color:#FF5E0E;
+}
+button{
+    border:none;
+    background: none;
 }
