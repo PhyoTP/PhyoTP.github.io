@@ -1,19 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
     font-family: 'AvenirMedium';
-    src: url('assets/AvenirMedium.ttf') format('truetype');
+    src: url('assets/AvenirNextRoundedStd-Med.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'AvenirDemi';
-    src: url('assets/AvenirDemi.ttf') format('truetype');
+    src: url('assets/AvenirNextRoundedStd-Demi.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'AvenirBold';
-    src: url('assets/AvenirBold.ttf') format('truetype');
+    src: url('assets/AvenirNextRoundedStd-Bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
