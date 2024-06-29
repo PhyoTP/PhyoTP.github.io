@@ -32,7 +32,8 @@
             "prerender": true,
             "ssr": {
               "entry": "server.ts"
-            }
+            },
+            "baseHref": "/PhyoTP.github.io/"
           },
           "configurations": {
             "production": {

@@ -1,12 +1,18 @@
-#intro{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  margin-top: 10vh;
-  font-size: 10vh;
-}
 #intro h1{
-    font-family: "Space Mono";
-    color: white;
+  font-family: "Space Mono";
+  color: white;
 }
+#intro {
+  display: flex; 
+  align-items: flex-start; 
+}
+#intro img {
+  margin: 5vmin 10vmin 0vmin 5vmin; 
+  height:50vmin;
+  border-radius: 100%;
+  transition:height 1s;
+}
+#intro img:hover {
+  height:60vmin;
+}
+
