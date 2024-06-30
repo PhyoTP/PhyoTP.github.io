@@ -4,20 +4,29 @@ header{
     margin: -8px;
     position: sticky;
     z-index:1;
-    height:10vh;
+    height:10vmin;
+    align-items: start;
 }
 header *{
-    height:95%;
     display: inline;
+    height:100%;
+    transition: height 1s;
 }
 button{
     background: none;
     border:none;
+    cursor: pointer;
 }
 button img{
-    border-radius: 100px;
+    border-radius: 100%;
+    margin-right: 10px;
 }
 button h1{
     position: relative;
-    bottom: 30%;
+    bottom: 3.5vmin;
+    font-size: xx-large;
+}
+
+a img:hover{
+    height:11vmin;
 }
