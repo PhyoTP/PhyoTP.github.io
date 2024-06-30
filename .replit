@@ -1,0 +1,13 @@
+modules = ["web", "nodejs-20"]
+run = ["cd angularPhyoTP","ng serve --open"]
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "cd angularPhyoTP","ng serve --open"]
+
+[[ports]]
+localPort = 4200
+externalPort = 80
+exposeLocalhost = true

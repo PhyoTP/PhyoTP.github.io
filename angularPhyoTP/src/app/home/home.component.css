@@ -1,18 +1,32 @@
-#intro h1{
-  font-family: "Space Mono";
-  color: white;
-}
 #intro {
-  display: flex; 
-  align-items: flex-start; 
-}
-#intro img {
-  margin: 5vmin 10vmin 0vmin 5vmin; 
-  height:50vmin;
-  border-radius: 100%;
-  transition:height 1s;
-}
-#intro img:hover {
-  height:60vmin;
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  font-size: large;
+  justify-content: center;
 }
 
+.left, .right {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#intro h1 {
+  font-family: "Space Mono";
+  color: white;
+  padding-right: 10%;
+}
+
+#intro img {
+  width: 80%; 
+}
+@media (max-width: 450px){
+  #intro {
+    flex-direction: column;
+  }
+  .left, .right {
+    width: 100%;
+  }
+}
