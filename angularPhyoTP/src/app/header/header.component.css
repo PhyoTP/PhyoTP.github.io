@@ -6,11 +6,12 @@ header{
     z-index:1;
     height:10vmin;
     align-items: start;
+    gap:10px;
 }
 header *{
     display: inline;
     height:100%;
-    transition: height 1s;
+    transition: all 0.3s ease-in-out;
 }
 button{
     background: none;
@@ -19,7 +20,6 @@ button{
 }
 button img{
     border-radius: 100%;
-    margin-right: 10px;
 }
 button h1{
     position: relative;
@@ -29,4 +29,6 @@ button h1{
 
 a img:hover{
     height:11vmin;
+    filter: drop-shadow(0 0 10px white);
+    
 }
