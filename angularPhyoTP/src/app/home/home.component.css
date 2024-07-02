@@ -29,4 +29,21 @@
   .left, .right {
     width: 100%;
   }
+  main{
+    position: relative;
+    top: 10vmin;
+  }
+}
+button{
+  background: none;
+  border: none;
+  /*cursor: pointer;
+}
+button img{
+  transition: all 0.3s ease-in-out;
+}
+button img:hover{
+    height:11vmin;
+    filter: drop-shadow(0 0 10px white);
+*/
 }
