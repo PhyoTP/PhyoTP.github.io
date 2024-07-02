@@ -21,7 +21,16 @@
 
 #intro img {
   width: 80%; 
+  border-radius: 10%;
+  transition: all 0.5s ease-in-out;
 }
+#intro img:hover{
+  transform: rotate3d(-1, 1, 0, 35deg) translate3d(20px,20px,20px);
+  transform-style: preserve-3d;
+  outline: 5px solid white;
+}
+
+
 @media (max-width: 450px){
   #intro {
     flex-direction: column;
@@ -33,17 +42,23 @@
     position: relative;
     top: 10vmin;
   }
+  #JS{
+    position: default;
+  }
 }
 button{
   background: none;
   border: none;
-  /*cursor: pointer;
+  cursor: pointer;
 }
 button img{
   transition: all 0.3s ease-in-out;
 }
 button img:hover{
-    height:11vmin;
     filter: drop-shadow(0 0 10px white);
-*/
+    width: 410px;
+}
+#JS{
+  position: relative;
+  bottom:5vmin;
 }

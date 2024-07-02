@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { codingLangs } from '../imgbutton';
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -8,5 +9,5 @@ import { RouterModule } from '@angular/router';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  langs = codingLangs
 }
