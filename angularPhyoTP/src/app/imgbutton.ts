@@ -46,11 +46,45 @@ export const codingLangs: ImageButton[] = [
     },
     {
         src: 'https://vtuber-style-logos.vercel.app/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FEnder-Wiggin2019%2FServiceLogos%2Fmain%2FC%2523%2FC%2523.png&w=384&q=75',
-        name: 'C#',
+        name: 'CS',
         route: '/csharp'
     }
 
 ]
 export const technologies: ImageButton[] = [
-    
+    {
+        src: 'https://miro.medium.com/v2/resize:fit:1400/1*xYowXd50czavosQGQ5Ndng.png',
+        name: 'SwiftUI',
+        route: '/swift/#swiftui'
+    },
+    {
+        src: 'https://developer.apple.com/news/images/og/xcode-12-og.jpg',
+        name: 'Xcode',
+        route: '/swift/#xcode'
+    },
+    {
+        src: 'https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png',
+        name: 'MySQL',
+        route: '/sql/#mysql'
+    },
+    {
+        src: 'https://www.fevaworks.com/portal/site/images/sparklogo.png',
+        name: 'Meta Spark',
+        route: '/metaspark'
+    },
+    {
+        src: 'https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F87gdibqpr93vpfpqj7xm.png',
+        name: 'Git',
+        route: '/git'
+    },
+    {
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/GitHub/GitHub.png',
+        name: 'GitHub',
+        route: '/git/#github'
+    },
+    {
+        src: 'https://preview.redd.it/made-this-roblox-studio-logo-v0-iidroe6u835a1.png?width=640&crop=smart&auto=webp&s=ca902e12fbdd3718dfea23099c7b6abf22a2063f',
+        name: 'Roblox Studio',
+        route: '/luau/#robloxstudio'
+    }
 ]
