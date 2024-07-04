@@ -2,7 +2,7 @@ header{
     background-color: black;
     padding: 12px 16px 8px 16px;
     margin: -8px;
-    position: sticky;
+    position: default;
     z-index:1;
     height:10vmin;
     align-items: start;

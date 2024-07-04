@@ -30,7 +30,14 @@
   outline: 5px solid white;
 }
 
-
+#home{
+    position: relative;
+    top: 20vmin;
+  }
+  main{
+    position: relative;
+    top: 10vmin;
+  }
 @media (max-width: 450px){
   #intro {
     flex-direction: column;
@@ -40,24 +47,16 @@
     width: 100%;
     display: block;
   }
-  #home{
-    position: relative;
-    top: 20vmin;
-  }
-  main{
-    position: relative;
-    top: 10vmin;
-  }
   #JS{
     position: default;
   }
   button img{
-    width:90vw;
+    width:80vw;
     transition: all 0.3s ease-in-out;
   }
   button img:hover{
     filter: drop-shadow(0 0 10px white);
-    width: 95vw;
+    width: 90vw;
   }
 }
 button{

@@ -83,6 +83,11 @@ export const technologies: ImageButton[] = [
         route: '/git/#github'
     },
     {
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/Figma/Figma.png',
+        name: "Figma",
+        route: '/figma'
+    },
+    {
         src: 'https://preview.redd.it/made-this-roblox-studio-logo-v0-iidroe6u835a1.png?width=640&crop=smart&auto=webp&s=ca902e12fbdd3718dfea23099c7b6abf22a2063f',
         name: 'Roblox Studio',
         route: '/luau/#robloxstudio'
@@ -106,5 +111,12 @@ export const technologies: ImageButton[] = [
         src: 'https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/Docker/DockerLogo.png',
         name: 'Docker',
         route: '/docker'
+    }
+]
+export const projects: ImageButton[] = [
+    {
+        src: 'assets/academ.webp',
+        name: 'Academ',
+        route: '/swift/#academ'
     }
 ]
