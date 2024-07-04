@@ -1,19 +1,29 @@
-<section id="intro">
-    <div class="left">
-        <img src="/assets/logo.png" alt="Logo">
-    </div>
-    <div class="right">
-        <h1>PhyoTP</h1>
-        <p>A student developer from Singapore</p>
-    </div>
-</section>
-<main>
-    <section id="langs">
-        <h2>Coding Languages</h2>
-        @for (lang of langs; track $index){
-            <button [routerLink]="lang.route" [id]="lang.name">
-                <img src="{{lang.src}}" alt="{{lang.name}}" width="400px">
-            </button>
-        }
+<div id="home">
+    <section id="intro">
+        <div class="left">
+            <img src="/assets/logo.png" alt="Logo">
+        </div>
+        <div class="right">
+            <h1>PhyoTP</h1>
+            <p>A student developer from Singapore</p>
+        </div>
     </section>
-</main>
+    <main>
+        <section id="langs">
+            <h2>Coding Languages</h2>
+            @for (lang of langs; track $index){
+                <button [routerLink]="lang.route" [id]="lang.name">
+                    <img src="{{lang.src}}" alt="{{lang.name}}">
+                </button>
+            }
+        </section>
+        <section id="technologies">
+            <h2>Technologies</h2>
+            @for (tech of techs; track $index){
+                <button [routerLink]="tech.route" [id]="tech.name">
+                    <img src="{{tech.src}}" alt="{{tech.name}}">
+                </button>
+            }
+        </section>
+    </main>
+</div>

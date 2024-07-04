@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { codingLangs } from '../imgbutton';
+import { codingLangs, technologies } from '../imgbutton';
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -10,4 +10,5 @@ import { codingLangs } from '../imgbutton';
 })
 export class HomeComponent {
   langs = codingLangs
+  techs = technologies
 }

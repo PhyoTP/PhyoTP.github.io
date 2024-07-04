@@ -86,5 +86,25 @@ export const technologies: ImageButton[] = [
         src: 'https://preview.redd.it/made-this-roblox-studio-logo-v0-iidroe6u835a1.png?width=640&crop=smart&auto=webp&s=ca902e12fbdd3718dfea23099c7b6abf22a2063f',
         name: 'Roblox Studio',
         route: '/luau/#robloxstudio'
+    },
+    {
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/Angular/Angular.png',
+        name: 'Angular',
+        route: '/angular'
+    },
+    {
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/UnityBlender/UnityBlenderT.png',
+        name: 'Unity',
+        route: '/cs/#unity'
+    },
+    {
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/VisualStudio/VisualStudio.png',
+        name: 'Visual Studio',
+        route: '/visual-studio'
+    },
+    {
+        src: 'https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/Docker/DockerLogo.png',
+        name: 'Docker',
+        route: '/docker'
     }
 ]

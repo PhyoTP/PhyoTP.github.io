@@ -25,7 +25,7 @@
   transition: all 0.5s ease-in-out;
 }
 #intro img:hover{
-  transform: rotate3d(-1, 1, 0, 35deg) translate3d(20px,20px,20px);
+  transform: rotate3d(-1, 1, 0, 35deg) translate3d(20px,20px,100px);
   transform-style: preserve-3d;
   outline: 5px solid white;
 }
@@ -34,9 +34,15 @@
 @media (max-width: 450px){
   #intro {
     flex-direction: column;
+    text-align: center;
   }
   .left, .right {
     width: 100%;
+    display: block;
+  }
+  #home{
+    position: relative;
+    top: 20vmin;
   }
   main{
     position: relative;
@@ -44,6 +50,14 @@
   }
   #JS{
     position: default;
+  }
+  button img{
+    width:90vw;
+    transition: all 0.3s ease-in-out;
+  }
+  button img:hover{
+    filter: drop-shadow(0 0 10px white);
+    width: 95vw;
   }
 }
 button{
@@ -53,6 +67,7 @@ button{
 }
 button img{
   transition: all 0.3s ease-in-out;
+  width: 400px;
 }
 button img:hover{
     filter: drop-shadow(0 0 10px white);

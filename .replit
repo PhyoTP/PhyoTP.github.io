@@ -1,11 +1,11 @@
 modules = ["web", "nodejs-20"]
-run = ["cd angularPhyoTP","ng serve --open"]
+run = ["sh","-c","cd angularPhyoTP", "ng serve --open"]
 
 [nix]
 channel = "stable-23_11"
 
 [deployment]
-run = ["sh", "-c", "cd angularPhyoTP","ng serve --open"]
+run = ["sh", "-c", "cd angularPhyoTP", 'ng build --configuration=production --base-href="/PhyoTP.github.io/"', 'ng deploy --base-href="/PhyoTP.github.io/"']
 
 [[ports]]
 localPort = 4200
