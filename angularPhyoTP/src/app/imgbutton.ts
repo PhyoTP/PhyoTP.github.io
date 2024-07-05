@@ -25,7 +25,7 @@ export const codingLangs: ImageButton[] = [
         route: '/html'
     },
     {
-        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/CSS/CSS.png',
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/CSS%E5%AE%8C%E5%85%A8%E3%81%AB%E7%90%86%E8%A7%A3%E3%81%97%E3%81%9F/CSS%E5%AE%8C%E5%85%A8%E3%81%AB%E7%90%86%E8%A7%A3%E3%81%97%E3%81%9F.png',
         name: 'css',
         route: '/css'
     },
@@ -115,8 +115,29 @@ export const technologies: ImageButton[] = [
 ]
 export const projects: ImageButton[] = [
     {
-        src: 'assets/academ.png',
+        src: '/assets/academ.png',
         name: 'Academ',
         route: '/swift/#academ'
+    },
+    {
+        src: 'https://phyotp.github.io/',
+        name: 'PhyoTP',
+        route: '/phyotp'
+    },
+    {
+        src: 'https://www.roblox.com/share?code=c24371b39f9de146a3183c7205141a2d&type=ExperienceDetails&stamp=1718626359965',
+        name: 'FTCL',
+        route: '/luau/#ftcl'
+    },
+    {
+        src: '/assets/bouncer.png',
+        name: 'Bouncer',
+        route: '/cs/#bouncer'
+    },
+    {
+        src: 'https://github.com/phyotp/Relation',
+        name: 'Relation',
+        route: '/python/#relation'
     }
+
 ]
