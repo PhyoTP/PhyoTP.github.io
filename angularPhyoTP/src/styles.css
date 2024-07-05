@@ -20,7 +20,7 @@
 a, h1, h2, .lighted{
     color: #ff8c00;
 }
-p, a {
+p, a , img{
     font-family: "AvenirMedium";
 }
 h2{
@@ -32,6 +32,6 @@ h1{
 body{
     background-color: #332F2B;
 }
-p{
+p, img{
     color:white;
 }

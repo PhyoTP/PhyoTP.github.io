@@ -5,12 +5,12 @@ export interface ImageButton {
 }
 export const codingLangs: ImageButton[] = [
     {
-        src: 'https://vtuber-style-logos.vercel.app/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FEnder-Wiggin2019%2FServiceLogos%2Fmain%2FSwift%2FSwift.png&w=384&q=75',
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/Swift/Swift.png',
         name: 'Swift',
         route: '/swift'
     },
     {
-        src: 'https://vtuber-style-logos.vercel.app/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FEnder-Wiggin2019%2FServiceLogos%2Fmain%2FPython%2FPython.png&w=384&q=75',
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/Python/Python.png',
         name: 'Python',
         route: '/python'
     },
@@ -20,12 +20,12 @@ export const codingLangs: ImageButton[] = [
         route: '/sql'
     },
     {
-        src: 'https://vtuber-style-logos.vercel.app/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FEnder-Wiggin2019%2FServiceLogos%2Fmain%2FHtml%2FHTML.png&w=384&q=75',
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/Html/HTML.png',
         name: 'HTML',
         route: '/html'
     },
     {
-        src: 'https://vtuber-style-logos.vercel.app/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FEnder-Wiggin2019%2FServiceLogos%2Fmain%2FCSS%E5%AE%8C%E5%85%A8%E3%81%AB%E7%90%86%E8%A7%A3%E3%81%97%E3%81%9F%2FCSS%E5%AE%8C%E5%85%A8%E3%81%AB%E7%90%86%E8%A7%A3%E3%81%97%E3%81%9F.png&w=384&q=75',
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/CSS/CSS.png',
         name: 'css',
         route: '/css'
     },
@@ -35,7 +35,7 @@ export const codingLangs: ImageButton[] = [
         route: '/js'
     },
     {
-        src: 'https://vtuber-style-logos.vercel.app/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FEnder-Wiggin2019%2FServiceLogos%2Fmain%2FTypeScript%2FTypeScript.png&w=384&q=75',
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/TypeScript/TypeScript.png',
         name: 'TypeScript',
         route: '/typescript'
     },
@@ -45,7 +45,7 @@ export const codingLangs: ImageButton[] = [
         route: '/luau'
     },
     {
-        src: 'https://vtuber-style-logos.vercel.app/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FEnder-Wiggin2019%2FServiceLogos%2Fmain%2FC%2523%2FC%2523.png&w=384&q=75',
+        src: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/C%23/C%23.png',
         name: 'CS',
         route: '/csharp'
     }
@@ -115,7 +115,7 @@ export const technologies: ImageButton[] = [
 ]
 export const projects: ImageButton[] = [
     {
-        src: 'assets/academ.webp',
+        src: 'assets/academ.png',
         name: 'Academ',
         route: '/swift/#academ'
     }
