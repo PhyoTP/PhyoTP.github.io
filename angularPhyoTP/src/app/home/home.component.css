@@ -1,7 +1,7 @@
 #intro {
   display: flex;
   width: 90vw;
-  height: 90vh;
+  height: 60vh;
   font-size: large;
   justify-content: center;
 }

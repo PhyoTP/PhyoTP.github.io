@@ -29,7 +29,8 @@
             <h2>Projects</h2>
             @for (project of myprojects; track $index) {
                 <button [routerLink]="project.route" [id]="project.name">
-                    <img src="{{project.src}}" alt="{{project.name}}">
+                    <img src="{{project.src}}" title="{{project.name}}">
+                    <h3>{{project.name}}</h3>
                 </button>
             }
         </section>

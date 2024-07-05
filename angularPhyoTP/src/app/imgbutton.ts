@@ -120,12 +120,12 @@ export const projects: ImageButton[] = [
         route: '/swift/#academ'
     },
     {
-        src: 'https://phyotp.github.io/',
+        src: '/assets/portfolio.png',
         name: 'PhyoTP',
         route: '/phyotp'
     },
     {
-        src: 'https://www.roblox.com/share?code=c24371b39f9de146a3183c7205141a2d&type=ExperienceDetails&stamp=1718626359965',
+        src: '/assets/ftcl.png',
         name: 'FTCL',
         route: '/luau/#ftcl'
     },
@@ -133,11 +133,5 @@ export const projects: ImageButton[] = [
         src: '/assets/bouncer.png',
         name: 'Bouncer',
         route: '/cs/#bouncer'
-    },
-    {
-        src: 'https://github.com/phyotp/Relation',
-        name: 'Relation',
-        route: '/python/#relation'
     }
-
 ]
