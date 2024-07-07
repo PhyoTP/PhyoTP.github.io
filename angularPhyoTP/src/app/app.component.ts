@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from '../header/header.component';
 import { RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { ErrorComponent } from './error/error.component';
+import { HomeComponent } from '../home/home.component';
+import { ErrorComponent } from '../error/error.component';
 @Component({
   selector: 'app-root',
   standalone: true,

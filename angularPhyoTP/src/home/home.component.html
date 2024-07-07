@@ -12,7 +12,7 @@
         <section id="langs">
             <h2>Coding Languages</h2>
             @for (lang of langs; track $index){
-                <button [routerLink]="lang.route" [id]="lang.name">
+                <button [routerLink]="[lang.route]" [id]="[lang.id]" class="lang">
                     <img src="{{lang.src}}" alt="{{lang.name}}">
                 </button>
             }
@@ -20,7 +20,7 @@
         <section id="technologies">
             <h2>Technologies</h2>
             @for (tech of techs; track $index){
-                <button [routerLink]="tech.route" [id]="tech.name">
+                <button [routerLink]="[tech.route]" [id]="[tech.id]" class="tech">
                     <img src="{{tech.src}}" alt="{{tech.name}}">
                 </button>
             }
@@ -28,7 +28,7 @@
         <section id="projects">
             <h2>Projects</h2>
             @for (project of myprojects; track $index) {
-                <button [routerLink]="project.route" [id]="project.name">
+                <button [routerLink]="[project.route]" [id]="[project.id]" class="project">
                     <img src="{{project.src}}" title="{{project.name}}">
                     <h3>{{project.name}}</h3>
                 </button>
