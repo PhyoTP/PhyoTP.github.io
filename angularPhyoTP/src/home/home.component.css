@@ -58,6 +58,12 @@
     filter: drop-shadow(0 0 10px white);
     width: 90vw;
   }
+  #home{
+    padding-top:100px;
+  }
+  main{
+    padding-top: 50px;
+  }
 }
 button{
   background: none;

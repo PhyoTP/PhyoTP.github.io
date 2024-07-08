@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Component, inject } from '@angular/core';
+import { RouterModule, Router } from '@angular/router';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -8,5 +8,8 @@ import { RouterModule } from '@angular/router';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-
+  router = inject(Router);
+  navigateToHome() {
+    this.router.navigateByUrl("/home");
+  }
 }
