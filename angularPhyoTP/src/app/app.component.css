@@ -1,0 +1,4 @@
+/*
+ng build --configuration=production --base-href="/PhyoTP.github.io/"
+ng deploy --base-href="/PhyoTP.github.io/"
+*/
