@@ -27,10 +27,10 @@ export const codingLangs: ImageButton[] = [
 ];
 
 export const technologies: ImageButton[] = [
-    createImageButton('https://miro.medium.com/v2/resize:fit:1400/1*xYowXd50czavosQGQ5Ndng.png', 'SwiftUI', '/swift/#swiftui'),
+    createImageButton('https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png', 'SwiftUI', '/swift/#swiftui'),
     createImageButton('https://developer.apple.com/news/images/og/xcode-12-og.jpg', 'Xcode', '/swift/#xcode'),
     createImageButton('https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png', 'MySQL', '/sql/#mysql'),
-    createImageButton('https://www.fevaworks.com/portal/site/images/sparklogo.png', 'Meta Spark', '/metaspark','metaspark'),
+    createImageButton('https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-developercircles/events/SparkAR_Symbol_01_FullColor_IMuPxIn.png', 'Meta Spark', '/metaspark','metaspark'),
     createImageButton('https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F87gdibqpr93vpfpqj7xm.png', 'Git', '/git'),
     createImageButton('https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/GitHub/GitHub.png', 'GitHub', '/git/#github'),
     createImageButton('https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/Figma/Figma.png', 'Figma', '/figma'),

@@ -31,13 +31,13 @@
 }
 
 #home{
-    position: relative;
-    top: 20vmin;
-  }
-  main{
-    position: relative;
-    top: 10vmin;
-  }
+  position: relative;
+  top: 20vmin;
+}
+main{
+  position: relative;
+  top: 10vmin;
+}
 @media (max-width: 450px){
   #intro {
     flex-direction: column;
@@ -50,11 +50,11 @@
   #JS{
     position: default;
   }
-  button img{
+  a img{
     width:80vw;
     transition: all 0.3s ease-in-out;
   }
-  button img:hover{
+  a img:hover{
     filter: drop-shadow(0 0 10px white);
     width: 90vw;
   }
@@ -65,20 +65,29 @@
     padding-top: 50px;
   }
 }
-button{
-  background: none;
+a{
   border: none;
   cursor: pointer;
-}
-button img{
-  transition: all 0.3s ease-in-out;
-  width: 400px;
-}
-button img:hover{
-    filter: drop-shadow(0 0 10px white);
-    width: 410px;
-}
-#JS{
+  text-decoration: none;
   position: relative;
-  bottom:5vmin;
+  top:5vmin;
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  margin:10px;
+  align-items: center;
+}
+a img{
+  transition: all 0.3s ease-in-out;
+  width:110%;
+}
+a img:hover{
+    filter: drop-shadow(0 0 10px white);
+}
+main section{
+  display: flex;
+  flex-wrap: wrap;
+}
+a h3{
+  text-align: center;
 }

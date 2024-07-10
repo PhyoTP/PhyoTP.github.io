@@ -2,33 +2,41 @@ header{
     background-color: black;
     padding: 12px 16px 8px 16px;
     margin: -8px;
-    position: default;
+    position: fixed;
     z-index:1;
     height:10vmin;
-    align-items: start;
+    align-items: center;
     gap:10px;
+    width:100%;
 }
 header *{
     display: inline;
     height:100%;
     transition: all 0.3s ease-in-out;
 }
-button{
+#backHome{
     background: none;
     border:none;
     cursor: pointer;
+    text-decoration: none;
+    float: left;
 }
-button img{
+#backHome img{
     border-radius: 100%;
 }
-button h1{
+#backHome h1{
     position: relative;
     bottom: 3.5vmin;
     font-size: xx-large;
+    text-decoration: none;
 }
 
 a img:hover{
     height:11vmin;
     filter: drop-shadow(0 0 10px white);
     
+}
+nav{
+    float:right;
+    margin-right:15px;
 }
