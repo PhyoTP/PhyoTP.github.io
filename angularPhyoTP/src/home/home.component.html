@@ -13,7 +13,9 @@
             <h2>Coding Languages</h2>
             @for (lang of langs; track $index){
                 <a [href]="[lang.route]" [id]="[lang.id]" class="lang">
-                    <img src="{{lang.src}}" alt="{{lang.name}}">
+                    <div class="image-container">
+                        <img src="{{lang.src}}" alt="{{lang.name}}">
+                    </div>
                     <h3>{{lang.name}}</h3>
                 </a>
             }
@@ -22,7 +24,9 @@
             <h2>Technologies</h2>
             @for (tech of techs; track $index){
                 <a [href]="[tech.route]" [id]="[tech.id]" class="tech">
-                    <img src="{{tech.src}}" alt="{{tech.name}}">
+                    <div class="image-container">
+                        <img src="{{tech.src}}" alt="{{tech.name}}">
+                    </div>
                     <h3>{{tech.name}}</h3>
                 </a>
             }
@@ -31,7 +35,9 @@
             <h2>Projects</h2>
             @for (project of myprojects; track $index) {
                 <a href="[project.route]" [id]="[project.id]" class="project">
-                    <img src="{{project.src}}" title="{{project.name}}">
+                    <div class="image-container">
+                        <img src="{{project.src}}" title="{{project.name}}">
+                    </div>
                     <h3>{{project.name}}</h3>
                 </a>
             }

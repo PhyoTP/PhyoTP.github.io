@@ -50,14 +50,6 @@ main{
   #JS{
     position: default;
   }
-  a img{
-    width:80vw;
-    transition: all 0.3s ease-in-out;
-  }
-  a img:hover{
-    filter: drop-shadow(0 0 10px white);
-    width: 90vw;
-  }
   #home{
     padding-top:100px;
   }
@@ -66,23 +58,19 @@ main{
   }
 }
 a{
-  border: none;
-  cursor: pointer;
   text-decoration: none;
   position: relative;
   top:5vmin;
   width: 300px;
-  height: 200px;
+  height: 300px;
   background-color: black;
   margin:10px;
-  align-items: center;
-}
-a img{
+  border-radius: 15px;
   transition: all 0.3s ease-in-out;
-  width:110%;
 }
-a img:hover{
-    filter: drop-shadow(0 0 10px white);
+a:hover{
+  filter: drop-shadow(0 0 10px white);
+  transform: scale(1.1);
 }
 main section{
   display: flex;
@@ -90,4 +78,18 @@ main section{
 }
 a h3{
   text-align: center;
+}
+.image-container {
+  width: 300px; 
+  height: 200px; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 80%;
+  max-height: 100%;
+  object-fit: contain; 
 }
