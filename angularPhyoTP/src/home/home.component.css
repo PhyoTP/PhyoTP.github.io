@@ -32,11 +32,11 @@
 
 #home{
   position: relative;
-  top: 20vmin;
+  top: 20vmax;
 }
 main{
   position: relative;
-  top: 10vmin;
+  top: 30vmax;
 }
 @media (max-width: 450px){
   #intro {
@@ -78,6 +78,8 @@ main section{
 }
 a h3{
   text-align: center;
+  display: block;
+  
 }
 .image-container {
   width: 300px; 
@@ -92,4 +94,10 @@ a h3{
   max-width: 80%;
   max-height: 100%;
   object-fit: contain; 
+}
+h2{
+  display: block;
+  width:100vw;
+  position: relative;
+  top:5vmin;
 }
