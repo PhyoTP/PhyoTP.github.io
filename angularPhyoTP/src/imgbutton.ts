@@ -3,14 +3,16 @@ export interface ImageButton {
     name: string;
     route: string;
     id?: string;
+    second? :string;
 }
 
-function createImageButton(src: string, name: string, route: string, id?: string): ImageButton {
+function createImageButton(src: string, name: string, route: string, id?: string, second?: string): ImageButton {
     return {
         src,
         name,
         route,
         id: id ?? name,
+        second: second ?? "nope"
     };
 }
 
@@ -49,9 +51,9 @@ export const projects: ImageButton[] = [
 ];
 
 export const certificates: ImageButton[] = [
-    createImageButton('/assets/sapCert.png', 'Swift Accelerator Programme Class of 2023', '/swift/#sap','SAP'),
+    createImageButton('/assets/sapCertOnline.png', 'Swift Accelerator Programme Class of 2023', '/swift/#sap','SAP','/assets/sapCertIRL.png'),
     createImageButton('https://images.credly.com/size/400x400/images/d9598c1a-2f59-49b9-b7fc-a764bf23b4d5/image.png', 'App Development with Swift: Associate', '/swift/#associate','associate'),
-    createImageButton('/assets/pythontandh.png','T and H Python Online Class','/python/#tandhpython','tandhpython'),
-    createImageButton('/assets/pythonmysql.png','T and H Python-MySQL Class Project','/sql/#pythondb','pythonmysql'),
-    createImageButton('/assets/metasparkreal.png','Meta Spark Bootcamp 2023','/metaspark/#cert','metasparkcert')
+    createImageButton('/assets/pythontandh.jpg','T and H Python Online Class','/python/#tandhpython','tandhpython'),
+    createImageButton('/assets/pythonmysql.jpg','T and H Python-MySQL Class Project','/sql/#pythondb','pythonmysql'),
+    createImageButton('/assets/metasparkOnline.png','Meta Spark Bootcamp 2023','/metaspark/#cert','metasparkcert','/assets/metasparkIRL.jpg')
 ];

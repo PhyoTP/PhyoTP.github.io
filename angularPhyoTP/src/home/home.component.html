@@ -34,12 +34,35 @@
         <section id="projects">
             <h2>Projects</h2>
             @for (project of myprojects; track $index) {
-                <a href="[project.route]" [id]="[project.id]" class="project">
+                <a [href]="[project.route]" [id]="[project.id]" class="project">
                     <div class="image-container">
                         <img src="{{project.src}}" title="{{project.name}}">
                     </div>
                     <h3>{{project.name}}</h3>
                 </a>
+            }
+        </section>
+        <section id="certs">
+            <h2>Certificates</h2>
+            @for (cert of certs; track $index) {
+                @if (cert.second=="nope"){
+                    <a [href]="[cert.route]" [id]="[cert.id]" class="cert">
+                        <div class="image-container">
+                            <img src="{{cert.src}}" title="{{cert.name}}">
+                        </div>
+                        <h3>{{cert.name}}</h3>
+                    </a>
+                } @else {
+                    <a [href]="[cert.route]" [id]="[cert.id]" class="cert2">
+                        <div class="book">
+                            <img src="{{cert.second}}" class="yes">
+                            <div class="cover">
+                              <img src="{{cert.src}}" class="yes">
+                            </div>
+                        </div>
+                        <h3>{{cert.name}}</h3>
+                    </a>
+                }
             }
         </section>
     </main>

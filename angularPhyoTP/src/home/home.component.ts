@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { codingLangs, projects, technologies } from '../imgbutton';
+import { certificates, codingLangs, projects, technologies } from '../imgbutton';
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -12,4 +12,5 @@ export class HomeComponent {
   langs = codingLangs
   techs = technologies
   myprojects = projects
+  certs = certificates
 }
