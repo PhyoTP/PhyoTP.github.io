@@ -1,0 +1,11 @@
+#spacer{
+  height: 40vmax;
+}
+#start{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#start img{
+  height: 50vmin;
+}
