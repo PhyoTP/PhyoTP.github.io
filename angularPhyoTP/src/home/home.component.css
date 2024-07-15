@@ -30,14 +30,10 @@
   outline: 5px solid white;
 }*/
 
-#home{
-  position: relative;
-  top: 20vmax;
+#home, main{
+  margin-top: 10vmax;
 }
-main{
-  position: relative;
-  top: 30vmax;
-}
+
 @media (max-width: 450px){
   #intro {
     flex-direction: column;
@@ -53,12 +49,6 @@ main{
   }
   #JS{
     position: default;
-  }
-  #home{
-    padding-top:100px;
-  }
-  main{
-    padding-top: 50px;
   }
 }
 a{
