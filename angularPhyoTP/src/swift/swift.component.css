@@ -1,11 +1,16 @@
-#spacer{
-  height: 40vmax;
-}
 #start{
   align-items: center;
   justify-content: center;
   display: flex;
+  height:150vh;
+  text-align: center;
 }
 #start img{
   height: 50vmin;
+  position: sticky;
+  top: 15vmax;
 }
+#start2{
+  text-align: center;
+}
+
