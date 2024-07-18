@@ -2,7 +2,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  height:150vh;
+  height:100vh;
   text-align: center;
 }
 #start img{
@@ -13,14 +13,18 @@
 #start2{
   text-align: center;
 }
-#technologies{
+
+.sections{
   display:flex;
   width:80vw;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 5vmin;
 }
-#xcode img, #swiftui img{
+.box img{
   width:100%;
 }
-#xcode, #swiftui{
+.box{
   text-decoration: none;
   position: relative;
   top:5vmin;
