@@ -106,10 +106,58 @@ export const topics: BaseTopic[] = [
       {
         id: 'pythonintermediate',
         name: 'Sololearn Python Intermediate',
-        description: 'Teaches about Python collection types, lambda functions, generators, decorators, object-oriented programming, and much more.',
+        description: 'Covers Python collection types, lambda functions, generators, decorators, object-oriented programming, and much more.',
         img: 'https://api2.sololearn.com/v2/certificates/CC-OQIMZJDA/image/jpg',
         type: TopicType.Certificate,
         link: 'https://www.sololearn.com/en/certificates/CC-OQIMZJDA'
+      }
+    ]
+  },
+  {
+    topic: {
+      id: 'sql',
+      name: 'SQL',
+      description: 'SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system.',
+      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sql_data_base_with_logo.png/400px-Sql_data_base_with_logo.png',
+      type: TopicType.Language,
+      link: '/sql',
+    },
+    children: [
+      {
+        id: 'mysql',
+        name: 'MySQL',
+        description: 'MySQL is an open-source relational database management system.',
+        img: 'https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png',
+        type: TopicType.Technology,
+        link: 'https://www.mysql.com/'
+      },
+      {
+        id: 'pythonmysql',
+        name: 'T and H Python-MySQL Class Project Certificate',
+        description: 'Uses tkinter to connect Python to a MySQL database',
+        img: '/assets/pythonmysql.jpg',
+        type: TopicType.Certificate,
+        link: 'https://gist.github.com/PhyoTP/897d02151e0e159f3462f3c971e54093'
+      },
+    ]
+  },
+  {
+    topic: {
+      id: 'angular',
+      name: 'Angular',
+      description: 'Angular is a typescript-based open-source web application framework led by the Angular Team at Google and used by a community of individuals and corporations.',
+      img: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/Angular/Angular.png',
+      type: TopicType.Technology,
+      link: '/angular',
+    },
+    children: [
+      {
+        id: 'html',
+        name: 'HTML',
+        description: 'HTML is the standard markup language for creating web pages.',
+        img: 'https://raw.githubusercontent.com/Ender-Wiggin2019/ServiceLogos/main/HTML/HTML.png',
+        type: TopicType.Language, 
+        link: '',
       }
     ]
   }
